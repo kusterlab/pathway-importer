@@ -8,9 +8,18 @@ This is a Python package that converts pathways from KEGG and WikiPathways into 
 git clone https://github.com/jmueller95/pathway-importer.git
 cd pathway-importer
 ```
-- Install and activate the conda environment: 
+- Install and activate the conda environment:  
+
+_a) On Windows:_
 ```sh
-conda env create -f ./environment.yml
+conda env create -f ./environment_windows.yml
+```
+_b) On Unix:_
+```sh
+conda env create -f ./environment_unix.yml
+```
+Then 
+```sh
 conda activate pathway_importer
 ```
 (or install the dependencies yourself)
